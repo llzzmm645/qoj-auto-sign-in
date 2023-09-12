@@ -13,8 +13,8 @@
    改为
    ``` ymal
    on: 
-   workflow_dispatch: 
-   schedule:
-    - cron: 0 22 * * *
+      workflow_dispatch: 
+      schedule:
+         - cron: 0 22 * * *
    ```
 从此，你就可以~~走上人生巅峰~~，愉快的使用它了，每天6点他都会帮你签到（由于未知原因，时间会有很大的偏差）
