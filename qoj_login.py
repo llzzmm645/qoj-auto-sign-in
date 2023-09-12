@@ -21,6 +21,6 @@ if cookie2=={}:
     print("Something Wrong!")
     exit()
 cookie1.update(cookie2)
-get("https://qoj.fzoi.top/punch",cookies=cookie1)
+get("https://qoj.fzoi.top/punch",headers=headers,cookies=cookie1)
 print("OK!{}".format(username))
-get("https://qoj.fzoi.top/logout",params={"_token":token})
+get("https://qoj.fzoi.top/logout",headers=headers,cookies=cookie1,params={"_token":token})
