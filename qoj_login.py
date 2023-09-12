@@ -4,8 +4,6 @@ from requests import get,post
 from requests.utils import dict_from_cookiejar
 from os import getenv
 headers={"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 SE 2.X MetaSr 1.0"}
-if len(i)!=2:
-    continue
 username="XXXXXXXX"
 password=hash.new("FEqAm2pnA6Ed622VqmqLuSKdJ2WJplCT".encode(),"########".encode(),"MD5").hexdigest()
 r1=get("https://qoj.fzoi.top",headers=headers)
